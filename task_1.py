@@ -12,7 +12,7 @@ def draw():
     for _ in range(20):
         brain.right(105)
         brain.fd(line_length)
-        line_length = line_length * 0.8
+        line_length *= 0.8
 
 
 draw()
